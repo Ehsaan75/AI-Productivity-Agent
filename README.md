@@ -6,9 +6,9 @@ A powerful command-line AI assistant that combines task management with intellig
 
 ### Core Functionality
 - **🤖 AI-Powered Assistance**: Ask questions and get intelligent responses using GPT-3.5-turbo
-- ** Task Management**: Full CRUD operations for your to-do list
+- **Task Management**: Full CRUD operations for your to-do list
 - **🎯 Smart Prioritisation**: Get AI-generated summaries and priority suggestions for your tasks
-- ** Persistent Storage**: Tasks are saved to `todo.json` and persist between sessions
+- **Persistent Storage**: Tasks are saved to `todo.json` and persist between sessions
 
 ### Available Commands
 - **`ask`** - Ask general knowledge questions or get productivity advice
