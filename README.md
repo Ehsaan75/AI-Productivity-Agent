@@ -1,13 +1,13 @@
 # AI Productivity Agent
 
-A powerful command-line AI assistant that combines task management with intelligent insights using OpenAI's GPT models. Perfect for developers, students, and anyone looking to boost their productivity with AI-powered task prioritization and guidance.
+A powerful command-line AI assistant that combines task management with intelligent insights using OpenAI's GPT models. Perfect for developers, students, and anyone looking to boost their productivity with AI-powered task prioritisation and guidance.
 
 ##  Features
 
 ### Core Functionality
 - **🤖 AI-Powered Assistance**: Ask questions and get intelligent responses using GPT-3.5-turbo
 - ** Task Management**: Full CRUD operations for your to-do list
-- **🎯 Smart Prioritization**: Get AI-generated summaries and priority suggestions for your tasks
+- **🎯 Smart Prioritisation**: Get AI-generated summaries and priority suggestions for your tasks
 - ** Persistent Storage**: Tasks are saved to `todo.json` and persist between sessions
 
 ### Available Commands
@@ -82,7 +82,7 @@ python main.py summarise
 ### AI Assistance
 ```bash
 # Ask productivity questions
-python main.py ask "What are three tips for staying focused while coding?"
+python main.py ask "What are three tips for staying focused whilst coding?"
 
 # Get learning advice
 python main.py ask "How should I approach learning machine learning as a beginner?"
@@ -97,7 +97,7 @@ python main.py ask "Explain the Pomodoro technique for time management"
 python agent.py
 ```
 
-##  Configuration
+## ⚙️ Configuration
 
 ### Environment Variables
 - `OPENAI_API_KEY`: Your OpenAI API key (required)
@@ -140,7 +140,7 @@ python main.py ask "What is 2+2?"
    - Ensure the `.env` file is in your project root directory
 
 3. **"Cannot import name 'OPENAI'"**
-   - The correct import is `from openai import OpenAI` (capitalized)
+   - The correct import is `from openai import OpenAI` (capitalised)
 
 4. **Tasks not saving**
    - Check file permissions in your project directory
@@ -160,11 +160,11 @@ python -v main.py view
 4. Test thoroughly
 5. Submit a pull request
 
-## 📄 License
+## 📄 Licence
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT Licence - see the LICENCE file for details.
 
-##  Acknowledgments
+##  Acknowledgements
 
 - OpenAI for providing the GPT API
 - The Python community for excellent libraries
